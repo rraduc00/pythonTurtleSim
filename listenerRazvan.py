@@ -55,7 +55,7 @@ def getAngle(x1, y1, x2, y2):
     yDiff = y2 - y1
     return atan2(yDiff, xDiff)
 
-#Es necesario obtener la posición de la tortuga para tener en cuenta el
+#Es necesario obtener la posicion de la tortuga para tener en cuenta el
 #angulo theta en todo momento.
 def obtainGlobalParams(data):
     global x
