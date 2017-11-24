@@ -34,7 +34,7 @@ def callback(data):
     #Se duerme el proceso para que la tortuga gire
     rospy.sleep(1.5)
     
-    #Segundo publish a cmd_veñ
+    #Segundo publish a cmd_vel
     vel_msg.linear.x = euclidean_distance(x, y, data.x, data.y)
     vel_msg.linear.y = 0
     vel_msg.linear.z = 0
